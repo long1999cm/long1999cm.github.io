@@ -1,0 +1,58 @@
+body {
+	background-color: #f1f1f1;
+	color: #333;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: middle;
+}
+ul, 
+li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.container {
+	height: 750px;
+	background-color: #fff;
+}
+.w650 {
+	width: 650px;
+	height: 978px;	
+	margin: 15px auto 0;
+	box-sizing: border-box;
+	padding: 30px 25px;
+}
+
+/* 页面头部 */
+
+.person-pic {
+	float: left;
+	width: 123px;
+	height: 187px;
+	margin-right: 50px;
+	background-color: #00a6ff;
+}
+
+.person-info {
+	margin-top: 35px;
+	float: left;
+	height: 152px;
+}
+
+.person-item div {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.person-item div:nth-child(1) {
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.person-item div:nth-child(2) {
+	padding: 0 15px;
+	border-bottom: 2px dashed #00a6ff;
+}
