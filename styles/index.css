@@ -37,11 +37,14 @@ li{
 }
 
 .person-info {
-	margin-top: 35px;
+	margin-top: 25px;
 	float: left;
 	height: 152px;
 }
 
+.person-item {
+	overflow: hidden;
+}
 .person-item div {
 	float: left;
 	margin-bottom: 15px;
